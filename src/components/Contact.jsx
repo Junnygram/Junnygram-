@@ -5,7 +5,8 @@ const Contact = () => {
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-8">
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">Contact</h1>
       <form
-        action=""
+        //this also works =>  // action="https://formsubmit.co/junnexclusive@gmail.com"
+        action="https://formsubmit.co/5d8d3a725ba5468f0324474143071d68"
         method="POST"
         encType="multipart/form-data"
         className="text-start"
@@ -17,6 +18,7 @@ const Contact = () => {
               className="border-2 rounded-lg p-2 flex border-gray-300 "
               type="text"
               name="name"
+              required
             ></input>
           </div>
           <div className="flex flex-col">
@@ -53,7 +55,10 @@ const Contact = () => {
           ></textarea>
         </div>
 
-        <button className="bg-[#001b5e] text-gray-100 mt-4 p-2 rounded-lg w-full  ">
+        <button
+          type="submit"
+          className="bg-[#001b5e] text-gray-100 mt-4 p-2 rounded-lg w-full  "
+        >
           Send Message
         </button>
       </form>
