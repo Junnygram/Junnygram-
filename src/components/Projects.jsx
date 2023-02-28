@@ -10,6 +10,7 @@ import userpersona from "../images/userpersona.png";
 import dashboard from "../images/dashboard.png";
 import admin from "../images/admin.png";
 import propertymataaz from "../images/propertymataaz.png";
+import cowrywise from "../images/cowrywise.png";
 
 const Projects = () => {
   return (
@@ -19,9 +20,9 @@ const Projects = () => {
       </h1>
       <p className="text-center py-8">
         {" "}
-        "hbvugvhkbg ivyhbkhvgufyv hvughjbhbvugvhkbg ivyhbkhvgufyv
-        hvughjbhbvugvhkbg ivyhbkhvgufyv hvughjbhbvugvhkbg ivyhbkhvgufyv
-        hvughjb",
+        Since the beginning of my journey as designer/developer, I've worked on
+        multiple projects for myself , done internship in software companies and
+        also collaborated with talented minds.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
@@ -60,7 +61,12 @@ const Projects = () => {
           library="react"
           src="https://olaleye-s-food-app.web.app/"
         />
-        <ProjectItem img={dashboard} title="dashboard" library="nextjs" />
+        <ProjectItem
+          img={dashboard}
+          title="dashboard"
+          library="nextjs"
+          src=""
+        />
         <ProjectItem
           img={userpersona}
           title="userpersona"
@@ -71,9 +77,16 @@ const Projects = () => {
           img={propertymataaz}
           title="propertymataaz"
           library="nextjs"
-          src=""
+          src="https://www.propertymataaz.com/"
         />
+
         <ProjectItem img={admin} title="admin" library="nextjs" src="" />
+        <ProjectItem
+          img={cowrywise}
+          title="cowrywise"
+          library="react"
+          src="https://cowrywisex.netlify.app/"
+        />
       </div>
     </div>
   );
