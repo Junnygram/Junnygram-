@@ -97,7 +97,7 @@ const Projects = () => {
           img={userpersonaa}
           title="userpersona2"
           library="react"
-          src="https://olaleyereactportfolio.netlify.app/"
+          src="https://olaleye-portfolio.netlify.app/"
         />
       </div>
     </div>
