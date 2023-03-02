@@ -11,6 +11,7 @@ import dashboard from "../images/dashboard.png";
 import admin from "../images/admin.png";
 import propertymataaz from "../images/propertymataaz.png";
 import cowrywise from "../images/cowrywise.png";
+import userpersonaa from "../images/userpersonaa.png";
 
 const Projects = () => {
   return (
@@ -80,12 +81,23 @@ const Projects = () => {
           src="https://www.propertymataaz.com/"
         />
 
-        <ProjectItem img={admin} title="admin" library="nextjs" src="" />
+        <ProjectItem
+          img={admin}
+          title="admin"
+          library="nextjs"
+          src="https://nextjsdashboard.netlify.app/"
+        />
         <ProjectItem
           img={cowrywise}
           title="cowrywise"
           library="react"
           src="https://cowrywisex.netlify.app/"
+        />
+        <ProjectItem
+          img={userpersonaa}
+          title="userpersona2"
+          library="react"
+          src="https://olaleyereactportfolio.netlify.app/"
         />
       </div>
     </div>
