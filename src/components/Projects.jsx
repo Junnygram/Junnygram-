@@ -66,7 +66,7 @@ const Projects = () => {
           img={dashboard}
           title="dashboard"
           library="nextjs"
-          src=""
+          src="https://nextjsdashboard.netlify.app/"
         />
         <ProjectItem
           img={userpersona}
