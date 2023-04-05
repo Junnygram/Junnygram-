@@ -3,6 +3,15 @@ import { TypeAnimation } from "react-type-animation";
 import { SocialIcon } from "react-social-icons";
 
 const Main = () => {
+  let options = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+  let date = new Date();
+  let formattedDate = date.toLocaleDateString("en-US", options);
+
   return (
     <div id="main" className="">
       <img
@@ -35,6 +44,10 @@ const Main = () => {
               repeat={Infinity}
               style={{ fontSize: "0.8em" }}
             />
+          </h1>
+          <h1 className="text-[#6b7280]">
+            {" "}
+            you visted my portfolio on {formattedDate}
           </h1>
           <div className="flex justify-center gap-4 py-3">
             <SocialIcon
