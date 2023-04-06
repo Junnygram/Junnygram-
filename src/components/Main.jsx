@@ -15,11 +15,11 @@ const Main = () => {
   return (
     <div id="main" className="">
       <img
-        src="https://miro.medium.com/max/1187/1*0FqDC0_r1f5xFz3IywLYRA.jpeg"
+        src="/assets/junny.jpg"
         className="w-full h-screen object-cover transition-shadow ease-in-out duration-300 shadow-none hover:shadow-xl mb-0"
         alt=""
       />
-      <div className="w-full h-screen mt-8 absolute top-0 left-0 bg-white/80">
+      <div className="w-full h-screen mt-8 absolute top-0 left-0 bg-white/60">
         <div className="max-w-[700px] m-auto h-full flex flex-col justify-center items-center">
           <h1 className="sm:text-5xl  text-3xl font-bold text-gray-900">
             <span className="text-xl  ">Hi there, </span>
@@ -45,7 +45,7 @@ const Main = () => {
               style={{ fontSize: "0.8em" }}
             />
           </h1>
-          <h1 className="text-[#6b7280]">
+          <h1 className="text-[#131518] text-sm">
             {" "}
             you visted my portfolio on {formattedDate}
           </h1>

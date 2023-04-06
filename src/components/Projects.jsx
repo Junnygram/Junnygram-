@@ -27,77 +27,83 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          img={propertymataaz}
+          title="propertymataaz"
+          library="nextjs"
+          src="https://www.propertymataaz.com/"
+          gitsrc="https://github.com/harmoniccoders/pmfe-rework"
+        />
+
+        <ProjectItem
           img={stackeat}
           title="stackeat"
           library="react"
           src=" https://stack-eat.onrender.com"
+          gitsrc="https://github.com/Junnygram/stack-eat"
         />
         <ProjectItem
           img={willey}
           title="willey"
           library="react"
           src="https://willey123.onrender.com"
+          gitsrc="https://github.com/Junnygram/willey-ecommerce"
         />
         <ProjectItem
           img={youtube}
           title="youtube"
           library="react"
           src="https://junnytube.netlify.app/"
+          gitsrc="https://github.com/Junnygram/Youtube-clone"
         />
         <ProjectItem
           img={datafinance}
           title="datafinance"
           library="react"
           src="https://data-financee.netlify.app/"
+          gitsrc="https://github.com/Junnygram/data-finance"
         />
         <ProjectItem
           img={userlogin}
           title="userlogin"
           library="react"
           src="https://olalogin-13ec0.web.app/"
+          gitsrc="https://github.com/Junnygram/LoginandLogout"
         />
         <ProjectItem
           img={foodstore}
           title="foodstore"
           library="react"
           src="https://olaleye-s-food-app.web.app/"
+          gitsrc="https://github.com/Junnygram/Food-app"
         />
         <ProjectItem
           img={dashboard}
           title="dashboard"
           library="nextjs"
           src="https://nextjsdashboard.netlify.app/"
+          gitsrc="https://github.com/Junnygram/dashboard"
         />
         <ProjectItem
           img={userpersona}
           title="userpersona"
           library="react"
           src="https://olaleyereactportfolio.netlify.app/"
-        />
-        <ProjectItem
-          img={propertymataaz}
-          title="propertymataaz"
-          library="nextjs"
-          src="https://www.propertymataaz.com/"
+          gitsrc="https://github.com/Junnygram/my-portfolio"
         />
 
         <ProjectItem
-          img={admin}
-          title="admin"
-          library="nextjs"
-          src="https://nextjsdashboard.netlify.app/"
+          img={userpersonaa}
+          title="userpersona2"
+          library="react"
+          src="https://olaleye-portfolio.netlify.app/"
+          gitsrc="https://github.com/Junnygram/myportfolio"
         />
         <ProjectItem
           img={cowrywise}
           title="cowrywise"
           library="react"
           src="https://cowrywisex.netlify.app/"
-        />
-        <ProjectItem
-          img={userpersonaa}
-          title="userpersona2"
-          library="react"
-          src="https://olaleye-portfolio.netlify.app/"
+          gitsrc="https://github.com/Junnygram/cowrywise"
         />
       </div>
     </div>
