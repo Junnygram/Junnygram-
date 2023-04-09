@@ -1,5 +1,5 @@
-import React from "react";
-import { AiFillGithub } from "react-icons/ai";
+import React from 'react';
+import { AiFillGithub } from 'react-icons/ai';
 
 const ProjectItem = ({ img, title, library, src, gitsrc }) => {
   return (

@@ -1,17 +1,18 @@
-import React from "react";
-import ProjectItem from "./ProjectItem";
-import foodstore from "../images/foodstore.png";
-import userlogin from "../images/userlogin.png";
-import datafinance from "../images/datafinance.png";
-import stackeat from "../images/stackeat.png";
-import willey from "../images/willey.png";
-import youtube from "../images/youtube.png";
-import userpersona from "../images/userpersona.png";
-import dashboard from "../images/dashboard.png";
-import admin from "../images/admin.png";
-import propertymataaz from "../images/propertymataaz.png";
-import cowrywise from "../images/cowrywise.png";
-import userpersonaa from "../images/userpersonaa.png";
+import React from 'react';
+import ProjectItem from './ProjectItem';
+import foodstore from '../images/foodstore.png';
+import userlogin from '../images/userlogin.png';
+import datafinance from '../images/datafinance.png';
+import stackeat from '../images/stackeat.png';
+import willey from '../images/willey.png';
+import youtube from '../images/youtube.png';
+import userpersona from '../images/userpersona.png';
+import dashboard from '../images/dashboard.png';
+import admin from '../images/admin.png';
+import propertymataaz from '../images/propertymataaz.png';
+import cowrywise from '../images/cowrywise.png';
+import userpersonaa from '../images/userpersonaa.png';
+import monster from '../images/monster.png';
 
 const Projects = () => {
   return (
@@ -20,7 +21,7 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        {" "}
+        {' '}
         Since the beginning of my journey as designer/developer, I've worked on
         multiple projects for myself , done internship in software companies and
         also collaborated with talented minds.
@@ -54,6 +55,13 @@ const Projects = () => {
           library="react"
           src="https://junnytube.netlify.app/"
           gitsrc="https://github.com/Junnygram/Youtube-clone"
+        />
+        <ProjectItem
+          img={monster}
+          title="monster"
+          library="react"
+          src=" https://monsterr-rolodex.netlify.app/"
+          gitsrc="https://github.com/Junnygram/monster-rolodex"
         />
         <ProjectItem
           img={datafinance}
