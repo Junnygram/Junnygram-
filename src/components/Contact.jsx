@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const Contact = () => {
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-8">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Contact</h1>
+      <h1 className="text-4xl font-press-start text-center text-[#001b5e]">
+        Contact
+      </h1>
       <form
         //this also works =>  // action="https://formsubmit.co/junnexclusive@gmail.com"
         action="https://formsubmit.co/5d8d3a725ba5468f0324474143071d68"
