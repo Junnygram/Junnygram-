@@ -8,7 +8,7 @@ import willey from '../images/willey.png';
 import youtube from '../images/youtube.png';
 import userpersona from '../images/userpersona.png';
 import dashboard from '../images/dashboard.png';
-import admin from '../images/admin.png';
+import nextjss from '../images/nextjss.png';
 import propertymataaz from '../images/propertymataaz.png';
 import cowrywise from '../images/cowrywise.png';
 import userpersonaa from '../images/userpersonaa.png';
@@ -27,13 +27,13 @@ const Projects = () => {
         also collaborated with talented minds.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem
+        {/* <ProjectItem
           img={propertymataaz}
           title="propertymataaz"
           library="nextjs"
           src="https://www.propertymataaz.com/"
           gitsrc="https://github.com/harmoniccoders/pmfe-rework"
-        />
+        /> */}
 
         <ProjectItem
           img={stackeat}
@@ -48,6 +48,13 @@ const Projects = () => {
           library="react"
           src="https://willey123.onrender.com"
           gitsrc="https://github.com/Junnygram/willey-ecommerce"
+        />
+        <ProjectItem
+          img={nextjss}
+          title="nextjs shop"
+          library="nextjs"
+          src="https://nextjs-ecommerce-peach-one.vercel.app/"
+          gitsrc="https://github.com/Junnygram/nextjs-ecommerce"
         />
         <ProjectItem
           img={youtube}
@@ -106,13 +113,13 @@ const Projects = () => {
           src="https://olaleye-portfolio.netlify.app/"
           gitsrc="https://github.com/Junnygram/myportfolio"
         />
-        <ProjectItem
+        {/* <ProjectItem
           img={cowrywise}
           title="cowrywise"
           library="react"
           src="https://cowrywisex.netlify.app/"
           gitsrc="https://github.com/Junnygram/cowrywise"
-        />
+        /> */}
       </div>
     </div>
   );
