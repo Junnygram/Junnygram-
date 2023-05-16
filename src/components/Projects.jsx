@@ -24,17 +24,10 @@ const Projects = () => {
         {' '}
         Since the beginning of my journey as designer/developer, I've worked on
         multiple projects for myself , done internship in software companies and
-        also collaborated with talented minds.
+        also collaborated with talented minds. Here are the projects i
+        personnally worked on:
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        {/* <ProjectItem
-          img={propertymataaz}
-          title="propertymataaz"
-          library="nextjs"
-          src="https://www.propertymataaz.com/"
-          gitsrc="https://github.com/harmoniccoders/pmfe-rework"
-        /> */}
-
         <ProjectItem
           img={stackeat}
           title="stackeat"
@@ -113,13 +106,28 @@ const Projects = () => {
           src="https://olaleye-portfolio.netlify.app/"
           gitsrc="https://github.com/Junnygram/myportfolio"
         />
-        {/* <ProjectItem
-          img={cowrywise}
-          title="cowrywise"
-          library="react"
-          src="https://cowrywisex.netlify.app/"
-          gitsrc="https://github.com/Junnygram/cowrywise"
-        /> */}
+      </div>
+      <div>
+        <h1 className="text-4xl font-press-start text-center text-[#001b5e]">
+          Intern Projects
+        </h1>
+        <p className="text-center py-8">
+          {' '}
+          These are the projects i worked on as an intern. I was able to write
+          nextjs , manages API endpoints, getServerSideProps and other Next.js
+          function that incolves fetching of data. I also used chakara ui for
+          styling . Since the beginning of Here are the projects i collaborated
+          while working as an intern
+        </p>
+        <div className="grid sm:grid-cols-2 gap-12">
+          <ProjectItem
+            img={propertymataaz}
+            title="propertymataaz"
+            library="nextjs"
+            src="https://www.propertymataaz.com/"
+            gitsrc="https://github.com/harmoniccoders/pmfe-rework"
+          />
+        </div>
       </div>
     </div>
   );
