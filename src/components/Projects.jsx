@@ -107,7 +107,7 @@ const Projects = () => {
           gitsrc="https://github.com/Junnygram/myportfolio"
         />
       </div>
-      <div>
+      <div className="mt-14">
         <h1 className="text-4xl font-press-start text-center text-[#001b5e]">
           Intern Projects
         </h1>

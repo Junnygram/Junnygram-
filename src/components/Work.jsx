@@ -4,7 +4,7 @@ import { data } from './data.js';
 
 const Work = () => {
   return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-8">
       <h1 className="text-4xl font-press-start text-center text-[#001b5e]">
         Work
       </h1>
