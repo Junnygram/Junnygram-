@@ -13,10 +13,12 @@ const Main = () => {
   let formattedDate = date.toLocaleDateString('en-US', options);
 
   return (
-    <div id="main" className="">
+    <div id="main">
       <img
         src="/assets/junny.jpg"
         className="w-full h-screen object-cover transition-shadow ease-in-out duration-300 shadow-none hover:shadow-xl mb-0"
+        data-aos="fade-down"
+        data-aos-delay="400"
         alt=""
       />
       <div className="w-full h-screen mt-8 absolute top-0 left-0 bg-white/60">
@@ -45,11 +47,19 @@ const Main = () => {
               style={{ fontSize: '0.8em' }}
             />
           </h1>
-          <h1 className="text-[#131518] text-sm">
+          <h1
+            className="text-[#131518] text-sm"
+            data-aos="fade-down"
+            data-aos-delay="400"
+          >
             {' '}
             you visted my portfolio on {formattedDate}
           </h1>
-          <div className="flex justify-center gap-4 py-3">
+          <div
+            className="flex justify-center gap-4 py-3"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
             <SocialIcon
               url="https://www.linkedin.com/in/olaleyeoyewunmi"
               className="mr-4"

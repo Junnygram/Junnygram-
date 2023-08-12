@@ -16,10 +16,15 @@ import monster from '../images/monster.png';
 
 const Projects = () => {
   return (
-    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-8">
-      <h1 className="text-4xl font-press-start text-center text-[#001b5e]">
+    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 ">
+      <h1
+        className="text-4xl font-press-start text-center text-[#001b5e]"
+        data-aos="fade-down"
+        data-aos-delay="400"
+      >
         Projects
       </h1>
+
       <p className="text-center py-8">
         {' '}
         Since the beginning of my journey as designer/developer, I've worked on
@@ -108,7 +113,11 @@ const Projects = () => {
         />
       </div>
       <div className="mt-14">
-        <h1 className="text-4xl font-press-start text-center text-[#001b5e]">
+        <h1
+          className="text-4xl font-press-start text-center text-[#001b5e]"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
           Intern Projects
         </h1>
         <p className="text-center py-8">
