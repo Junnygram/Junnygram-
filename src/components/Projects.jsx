@@ -132,14 +132,14 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 gap-12">
           <ProjectItem
             img={propertymataaz}
-            title="propertymataaz"
+            title="Propertymataaz"
             library="nextjs"
             src="https://www.propertymataaz.com/"
             gitsrc="https://github.com/harmoniccoders/pmfe-rework"
           />
           <ProjectItem
             img={studiomart}
-            title="propertymataaz"
+            title="Studiomart"
             library="nextjs"
             src="https://www.studiomart.io//"
             gitsrc="https://github.com/Harmonics-Technology/studiomartFe/tree/development"
