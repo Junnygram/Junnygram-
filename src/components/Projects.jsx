@@ -142,7 +142,7 @@ const Projects = () => {
             title="propertymataaz"
             library="nextjs"
             src="https://www.studiomart.io//"
-            gitsrc="https://github.com/harmoniccoders/pmfe-rework"
+            gitsrc="https://github.com/Harmonics-Technology/studiomartFe/tree/development"
           />
         </div>
       </div>
