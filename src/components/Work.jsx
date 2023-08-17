@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-8">
       <h1
-        className="text-4xl font-press-start text-center text-[#001b5e]"
+        className="text-4xl font-press-start text-center text-[#001b5e] my-2"
         data-aos="fade-right"
         data-aos-delay="400"
       >

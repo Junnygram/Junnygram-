@@ -13,6 +13,7 @@ import propertymataaz from '../images/propertymataaz.png';
 import cowrywise from '../images/cowrywise.png';
 import userpersonaa from '../images/userpersonaa.png';
 import monster from '../images/monster.png';
+import studiomart from '../images/studiomart.jpg';
 
 const Projects = () => {
   return (
@@ -123,8 +124,8 @@ const Projects = () => {
         <p className="text-center py-8">
           {' '}
           These are the projects i worked on as an intern. I was able to write
-          nextjs , manages API endpoints, getServerSideProps and other Next.js
-          function that incolves fetching of data. I also used chakara ui for
+          nextjs , implement API endpoints, getServerSideProps and other Next.js
+          function that involves fetching of data. I also used chakara ui for
           styling . Since the beginning of Here are the projects i collaborated
           while working as an intern
         </p>
@@ -134,6 +135,13 @@ const Projects = () => {
             title="propertymataaz"
             library="nextjs"
             src="https://www.propertymataaz.com/"
+            gitsrc="https://github.com/harmoniccoders/pmfe-rework"
+          />
+          <ProjectItem
+            img={studiomart}
+            title="propertymataaz"
+            library="nextjs"
+            src="https://www.studiomart.io//"
             gitsrc="https://github.com/harmoniccoders/pmfe-rework"
           />
         </div>
