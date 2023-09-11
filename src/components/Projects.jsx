@@ -98,21 +98,21 @@ const Projects = () => {
           src="https://nextjsdashboard.netlify.app/"
           gitsrc="https://github.com/Junnygram/dashboard"
         /> */}
-        <ProjectItem
+        {/* <ProjectItem
           img={userpersona}
           title="userpersona"
           library="react"
           src="https://olaleyereactportfolio.netlify.app/"
           gitsrc="https://github.com/Junnygram/my-portfolio"
-        />
-
+        /> */}
+        {/* 
         <ProjectItem
           img={userpersonaa}
           title="userpersona2"
           library="react"
           src="https://olaleye-portfolio.netlify.app/"
           gitsrc="https://github.com/Junnygram/myportfolio"
-        />
+        /> */}
         <ProjectItem
           img={vote}
           title="E-voters"
