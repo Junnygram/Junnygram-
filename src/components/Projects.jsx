@@ -14,6 +14,7 @@ import cowrywise from '../images/cowrywise.png';
 import userpersonaa from '../images/userpersonaa.png';
 import monster from '../images/monster.png';
 import studiomart from '../images/studiomart.jpg';
+import vote from '../images/vote.png';
 
 const Projects = () => {
   return (
@@ -55,48 +56,48 @@ const Projects = () => {
           src="https://nextjs-ecommerce-peach-one.vercel.app/"
           gitsrc="https://github.com/Junnygram/nextjs-ecommerce"
         />
-        <ProjectItem
+        {/* <ProjectItem
           img={youtube}
           title="youtube"
           library="react"
           src="https://junnytube.netlify.app/"
           gitsrc="https://github.com/Junnygram/Youtube-clone"
-        />
-        <ProjectItem
+        /> */}
+        {/* <ProjectItem
           img={monster}
           title="monster"
           library="react"
           src=" https://monsterr-rolodex.netlify.app/"
           gitsrc="https://github.com/Junnygram/monster-rolodex"
-        />
-        <ProjectItem
+        /> */}
+        {/* <ProjectItem
           img={datafinance}
           title="datafinance"
           library="react"
           src="https://data-financee.netlify.app/"
           gitsrc="https://github.com/Junnygram/data-finance"
-        />
-        <ProjectItem
+        /> */}
+        {/* <ProjectItem
           img={userlogin}
           title="userlogin"
           library="react"
           src="https://olalogin-13ec0.web.app/"
           gitsrc="https://github.com/Junnygram/LoginandLogout"
-        />
-        <ProjectItem
+        /> */}
+        {/* <ProjectItem
           img={foodstore}
           title="foodstore"
           library="react"
           src="https://olaleye-s-food-app.web.app/"
           gitsrc="https://github.com/Junnygram/Food-app"
-        />
-        <ProjectItem
+        /> */}
+        {/* <ProjectItem
           img={dashboard}
           title="dashboard"
           library="nextjs"
           src="https://nextjsdashboard.netlify.app/"
           gitsrc="https://github.com/Junnygram/dashboard"
-        />
+        /> */}
         <ProjectItem
           img={userpersona}
           title="userpersona"
@@ -111,6 +112,13 @@ const Projects = () => {
           library="react"
           src="https://olaleye-portfolio.netlify.app/"
           gitsrc="https://github.com/Junnygram/myportfolio"
+        />
+        <ProjectItem
+          img={vote}
+          title="E-voters"
+          library="Nextjs"
+          src="https://evotingwebapp.netlify.app/"
+          gitsrc="https://github.com/Junnygram/evotingapp"
         />
       </div>
       <div className="mt-14">
