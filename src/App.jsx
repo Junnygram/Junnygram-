@@ -8,6 +8,7 @@ import Work from './components/Work';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ParticleBackground from './components/ParticleBackground';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div>
+      <ParticleBackground />
       <Sidenav />
       <Main />
       <Work />
