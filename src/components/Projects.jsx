@@ -1,125 +1,77 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import foodstore from '../images/foodstore.png';
-import userlogin from '../images/userlogin.png';
-import datafinance from '../images/datafinance.png';
-import stackeat from '../images/stackeat.png';
-import willey from '../images/willey.png';
-import youtube from '../images/youtube.png';
-import userpersona from '../images/userpersona.png';
-import dashboard from '../images/dashboard.png';
-import nextjss from '../images/nextjss.png';
-import propertymataaz from '../images/propertymataaz.png';
-import cowrywise from '../images/cowrywise.png';
-import userpersonaa from '../images/userpersonaa.png';
-import monster from '../images/monster.png';
-import studiomart from '../images/studiomart.jpg';
-import vote from '../images/vote.png';
-
+import data from './data';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 const Projects = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 ">
-      <h1
-        className="text-4xl font-press-start text-center text-[#001b5e]"
-        data-aos="fade-down"
-        data-aos-delay="400"
-      >
-        Projects
-      </h1>
+      <div className="">
+        <h1
+          className="text-4xl font-press-start text-center text-[#001b5e]"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
+          DevOps Mastery Showcase
+        </h1>
+        <p className="text-center py-8">
+          {' '}
+          Projects I personally explored the Art of Continuous Integration,
+          Deployment, and Automation in Real-world Scenarios
+        </p>
 
-      <p className="text-center py-8">
-        {' '}
-        Since the beginning of my journey as designer/developer, I've worked on
-        multiple projects for myself , done internship in software companies and
-        also collaborated with talented minds. Here are the projects i
-        personnally worked on:
-      </p>
-      <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem
-          img={stackeat}
-          title="stackeat"
-          library="react"
-          src=" https://stack-eat.onrender.com"
-          gitsrc="https://github.com/Junnygram/stack-eat"
-        />
-        <ProjectItem
-          img={willey}
-          title="willey"
-          library="react"
-          src="https://willey123.onrender.com"
-          gitsrc="https://github.com/Junnygram/willey-ecommerce"
-        />
-        <ProjectItem
-          img={nextjss}
-          title="nextjs shop"
-          library="nextjs"
-          src="https://nextjs-ecommerce-peach-one.vercel.app/"
-          gitsrc="https://github.com/Junnygram/nextjs-ecommerce"
-        />
-        {/* <ProjectItem
-          img={youtube}
-          title="youtube"
-          library="react"
-          src="https://junnytube.netlify.app/"
-          gitsrc="https://github.com/Junnygram/Youtube-clone"
-        /> */}
-        {/* <ProjectItem
-          img={monster}
-          title="monster"
-          library="react"
-          src=" https://monsterr-rolodex.netlify.app/"
-          gitsrc="https://github.com/Junnygram/monster-rolodex"
-        /> */}
-        {/* <ProjectItem
-          img={datafinance}
-          title="datafinance"
-          library="react"
-          src="https://data-financee.netlify.app/"
-          gitsrc="https://github.com/Junnygram/data-finance"
-        /> */}
-        {/* <ProjectItem
-          img={userlogin}
-          title="userlogin"
-          library="react"
-          src="https://olalogin-13ec0.web.app/"
-          gitsrc="https://github.com/Junnygram/LoginandLogout"
-        /> */}
-        {/* <ProjectItem
-          img={foodstore}
-          title="foodstore"
-          library="react"
-          src="https://olaleye-s-food-app.web.app/"
-          gitsrc="https://github.com/Junnygram/Food-app"
-        /> */}
-        {/* <ProjectItem
-          img={dashboard}
-          title="dashboard"
-          library="nextjs"
-          src="https://nextjsdashboard.netlify.app/"
-          gitsrc="https://github.com/Junnygram/dashboard"
-        /> */}
-        {/* <ProjectItem
-          img={userpersona}
-          title="userpersona"
-          library="react"
-          src="https://olaleyereactportfolio.netlify.app/"
-          gitsrc="https://github.com/Junnygram/my-portfolio"
-        /> */}
-        {/* 
-        <ProjectItem
-          img={userpersonaa}
-          title="userpersona2"
-          library="react"
-          src="https://olaleye-portfolio.netlify.app/"
-          gitsrc="https://github.com/Junnygram/myportfolio"
-        /> */}
-        <ProjectItem
-          img={vote}
-          title="E-voters"
-          library="Nextjs"
-          src="https://evotingwebapp.netlify.app/"
-          gitsrc="https://github.com/Junnygram/evotingapp"
-        />
+        <div className="grid sm:grid-cols-2 gap-12">
+          {data.containerProjects.map((x, i) => (
+            <div key={i}>
+              <ProjectItem
+                img={x.img}
+                title={x.title}
+                library={x.library}
+                src={x.src}
+                gitsrc={x.gitsrc}
+              />
+            </div>
+          ))}
+        </div>
       </div>
       <div className="mt-14">
         <h1
@@ -137,23 +89,51 @@ const Projects = () => {
           styling . Since the beginning of Here are the projects i collaborated
           while working as an intern
         </p>
+
         <div className="grid sm:grid-cols-2 gap-12">
-          <ProjectItem
-            img={propertymataaz}
-            title="Propertymataaz"
-            library="nextjs"
-            src="https://www.propertymataaz.com/"
-            gitsrc="https://github.com/harmoniccoders/pmfe-rework"
-          />
-          <ProjectItem
-            img={studiomart}
-            title="Studiomart"
-            library="nextjs"
-            src="https://www.studiomart.io//"
-            gitsrc="https://github.com/Harmonics-Technology/studiomartFe/tree/development"
-          />
+          {data.internProjects.map((x, i) => (
+            <div key={i}>
+              <ProjectItem
+                img={x.img}
+                title={x.title}
+                library={x.library}
+                src={x.src}
+                gitsrc={x.gitsrc}
+              />
+            </div>
+          ))}
         </div>
       </div>
+      <div className="mt-14">
+        <h1
+          className="text-4xl font-press-start text-center text-[#001b5e]"
+          data-aos="fade-down"
+          data-aos-delay="400"
+        >
+          Projects
+        </h1>
+
+        <p className="text-center py-8">
+          {' '}
+          Since the beginning of my journey as designer/developer, I've worked
+          on multiple projects for myself , done internship in software
+          companies and also collaborated with talented minds. Here are the
+          projects i personnally worked on:
+        </p>
+        <Slider {...settings}>
+          {data.personnalProjects.map((x, i) => (
+            <div key={i} className="px-10">
+              <ProjectItem
+                img={x.img}
+                title={x.title}
+                library={x.library}
+                src={x.src}
+                gitsrc={x.gitsrc}
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>{' '}
     </div>
   );
 };

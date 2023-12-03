@@ -1,7 +1,6 @@
 // import animate on scroll
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
 import Sidenav from './components/Sidenav';
 import Main from './components/Main';
 import Work from './components/Work';
