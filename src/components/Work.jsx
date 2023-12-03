@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkItem from './WorkItem';
-import { data } from './data.js';
+import data from './data';
 
 const Work = () => {
   return (
@@ -13,7 +13,7 @@ const Work = () => {
         Work
       </h1>
 
-      {data.map((item, idx) => (
+      {data.workHistory.map((item, idx) => (
         <WorkItem
           key={idx}
           year={item.year}

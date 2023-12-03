@@ -16,12 +16,12 @@ const Main = () => {
     <div id="main">
       <img
         src="/assets/junny.jpg"
-        className="w-full h-screen object-cover transition-shadow ease-in-out duration-300 shadow-none hover:shadow-xl mb-0"
+        className="w-full  h-[80vh] object-cover transition-shadow ease-in-out duration-300 shadow-none hover:shadow-xl mb-0"
         data-aos="fade-down"
         data-aos-delay="400"
         alt=""
       />
-      <div className="w-full h-screen mt-8 absolute top-0 left-0 bg-white/60">
+      <div className="w-full h-[80vh] mt-8 absolute top-0 left-0 bg-white/60">
         <div className="max-w-[700px] m-auto h-full flex flex-col justify-center items-center">
           <h1 className="sm:text-5xl  text-3xl font-bold text-gray-900">
             <span className="text-xl  ">Hi there, </span>
@@ -53,7 +53,7 @@ const Main = () => {
             data-aos-delay="400"
           >
             {' '}
-            you visted my portfolio on {formattedDate}
+            visted my portfolio on {formattedDate}
           </h1>
           <div
             className="flex justify-center gap-4 py-3"
