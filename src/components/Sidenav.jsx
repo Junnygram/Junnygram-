@@ -60,6 +60,7 @@ const Sidenav = () => {
           </a>
 
           <a
+            target="_blank"
             onClick={handleNav}
             href="https://docs.google.com/document/d/1tOOb19BcE2t3wkVM5HHizaUJ-8MFpuoR/edit?usp=sharing&ouid=108904615856114390370&rtpof=true&sd=true"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -98,6 +99,7 @@ const Sidenav = () => {
               <AiOutlineProject size={20} />
             </a>
             <a
+              target="_blank"
               href="https://docs.google.com/document/d/1TrGsnHyRGEL5Cu0LPCYBm0oQ4Jumd6tj/edit?usp=sharing&ouid=108904615856114390370&rtpof=true&sd=true"
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100"
             >
