@@ -10,7 +10,6 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  // animate on scroll initialization
   Aos.init({
     duration: 1800,
     offset: 0,

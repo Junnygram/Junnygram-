@@ -14,13 +14,6 @@ const data = {
       details:
         'Durng my time in Rivet software i was able to start writing my first react code, we worked on a pet store where animals are being sold and also where you get a fast vetinary support for your pet.',
     },
-    {
-      year: 2021,
-      title: 'Mathematics teacher',
-      duration: '6 months ',
-      details:
-        'During my time working as a teacher i was able to follow schedule and learnt being punctual at work i do. this experience kept me moving forward in my endeavors',
-    },
   ],
   internProjects: [
     {
